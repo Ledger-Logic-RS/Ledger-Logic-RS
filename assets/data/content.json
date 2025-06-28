@@ -4,12 +4,12 @@
     "description": "Professional accounting and business services",
     "keywords": "accounting, business, finance, consulting",
     "contact": {
-      "email": "hello@ledgerlogic.com",
-      "phone": "+1 (555) 123-4567"
+      "email": "rs@ledger-logic.co.in",
+      "phone": "+91 78935 35852"
     },
     "address": {
-      "street": "123 Business Street",
-      "city": "New York, NY 10001"
+      "street": "",
+      "city": "Banglore, India"
     }
   },
   "navigation": {
@@ -17,7 +17,6 @@
       { "text": "Home", "href": "#hero", "active": true },
       { "text": "About", "href": "#about" },
       { "text": "Services", "href": "#services" },
-      { "text": "Portfolio", "href": "#portfolio" },
       { "text": "Team", "href": "#team" },
       { "text": "Contact", "href": "#contact" }
     ]
@@ -76,24 +75,14 @@
     ],
     "conclusion": "At Ledger Logic, we believe in building long-term relationships with our clients. Our commitment to excellence, attention to detail, and personalized service sets us apart in the industry. Let us help you navigate the complexities of finance and accounting."
   },
-  "skills": {
-    "title": "Skills",
-    "skills": [
-      { "name": "Tax Preparation", "percentage": 100 },
-      { "name": "Financial Planning", "percentage": 95 },
-      { "name": "Business Consulting", "percentage": 90 },
-      { "name": "Audit Services", "percentage": 85 },
-      { "name": "Bookkeeping", "percentage": 100 },
-      { "name": "Payroll Services", "percentage": 95 }
-    ]
-  },
+
   "stats": {
     "title": "Statistics",
     "stats": [
-      { "icon": "bi-emoji-smile", "number": 500, "label": "Happy Clients" },
-      { "icon": "bi-journal-richtext", "number": 1000, "label": "Tax Returns Filed" },
-      { "icon": "bi-headset", "number": 2500, "label": "Hours Of Support" },
-      { "icon": "bi-people", "number": 25, "label": "Expert Team Members" }
+      { "icon": "bi-emoji-smile", "number": 100, "label": "Happy Clients" },
+      { "icon": "bi-journal-richtext", "number": 200, "label": "Tax Returns Filed" },
+      { "icon": "bi-headset", "number": 1400, "label": "Hours Of Support" },
+      { "icon": "bi-people", "number": 15, "label": "Expert Team Members" }
     ]
   },
   "services": {
@@ -173,73 +162,6 @@
       }
     ]
   },
-  "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Check Our",
-    "highlight": "Portfolio",
-    "filters": [
-      { "name": "All", "filter": "*", "active": true },
-      { "name": "Tax Services", "filter": ".filter-app" },
-      { "name": "Consulting", "filter": ".filter-product" },
-      { "name": "Planning", "filter": ".filter-branding" }
-    ],
-    "items": [
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-1.jpg",
-        "title": "Tax Optimization",
-        "category": "filter-app",
-        "description": "Tax preparation and optimization"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-2.jpg",
-        "title": "Business Strategy",
-        "category": "filter-product",
-        "description": "Strategic business consulting"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-3.jpg",
-        "title": "Financial Planning",
-        "category": "filter-branding",
-        "description": "Comprehensive financial planning"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-4.jpg",
-        "title": "Audit Services",
-        "category": "filter-app",
-        "description": "Professional audit services"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-5.jpg",
-        "title": "Bookkeeping",
-        "category": "filter-product",
-        "description": "Professional bookkeeping"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-6.jpg",
-        "title": "Payroll Management",
-        "category": "filter-branding",
-        "description": "Comprehensive payroll services"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-7.jpg",
-        "title": "Tax Consulting",
-        "category": "filter-app",
-        "description": "Expert tax consulting"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-8.jpg",
-        "title": "Business Analysis",
-        "category": "filter-product",
-        "description": "In-depth business analysis"
-      },
-      {
-        "image": "assets/img/masonry-portfolio/masonry-portfolio-9.jpg",
-        "title": "Investment Planning",
-        "category": "filter-branding",
-        "description": "Strategic investment planning"
-      }
-    ]
-  },
   "team": {
     "title": "Team",
     "subtitle": "Our Expert",
@@ -291,70 +213,6 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing",
-    "subtitle": "Check our",
-    "highlight": "Pricing",
-    "plans": [
-      {
-        "name": "Basic",
-        "price": 99,
-        "period": "month",
-        "features": [
-          "Tax Preparation",
-          "Basic Bookkeeping",
-          "Quarterly Reports",
-          "Email Support",
-          "Annual Review"
-        ],
-        "excluded": [3, 4],
-        "featured": false
-      },
-      {
-        "name": "Professional",
-        "price": 199,
-        "period": "month",
-        "features": [
-          "Tax Preparation",
-          "Full Bookkeeping",
-          "Quarterly Reports",
-          "Phone Support",
-          "Annual Review"
-        ],
-        "excluded": [4],
-        "featured": true
-      },
-      {
-        "name": "Business",
-        "price": 299,
-        "period": "month",
-        "features": [
-          "Tax Preparation",
-          "Full Bookkeeping",
-          "Quarterly Reports",
-          "Priority Support",
-          "Annual Review"
-        ],
-        "excluded": [],
-        "featured": false
-      },
-      {
-        "name": "Enterprise",
-        "price": 499,
-        "period": "month",
-        "features": [
-          "Tax Preparation",
-          "Full Bookkeeping",
-          "Quarterly Reports",
-          "Dedicated Support",
-          "Annual Review"
-        ],
-        "excluded": [],
-        "featured": false,
-        "advanced": true
-      }
-    ]
-  },
   "faq": {
     "title": "F.A.Q",
     "subtitle": "Frequently Asked",
@@ -394,15 +252,15 @@
     "info": {
       "address": {
         "title": "Address",
-        "text": "123 Business Street, New York, NY 10001"
+        "text": "Banglore, India"
       },
       "phone": {
         "title": "Call Us",
-        "text": "+1 (555) 123-4567"
+        "text": "+91 78935 35852"
       },
       "email": {
         "title": "Email Us",
-        "text": "hello@ledgerlogic.com"
+        "text": "rs@ledger-logic.co.in"
       }
     },
     "form": {
@@ -427,28 +285,28 @@
       "success": "Your subscription request has been sent. Thank you!"
     },
     "about": {
-      "description": "123 Business Street",
-      "address": "New York, NY 10001",
-      "phone": "+1 (555) 123-4567",
-      "email": "hello@ledgerlogic.com"
+      "description": "Banglore, India",
+      "address": "Banglore, India",
+      "phone": "+91 78935 35852",
+      "email": "rs@ledger-logic.co.in"
     },
     "links": {
       "useful": {
         "title": "Useful Links",
         "items": [
-          { "text": "Home", "href": "#" },
-          { "text": "About us", "href": "#" },
-          { "text": "Services", "href": "#" },
-          { "text": "Terms of service", "href": "#" }
+          { "text": "Home", "href": "#hero" },
+          { "text": "About us", "href": "#about" },
+          { "text": "Services", "href": "#services" },
+          { "text": "Terms of service", "href": "#hero" }
         ]
       },
       "services": {
         "title": "Our Services",
         "items": [
-          { "text": "Tax Preparation", "href": "#" },
-          { "text": "Financial Planning", "href": "#" },
-          { "text": "Business Consulting", "href": "#" },
-          { "text": "Audit Services", "href": "#" }
+          { "text": "Tax Preparation", "href": "#services" },
+          { "text": "Financial Planning", "href": "#services" },
+          { "text": "Business Consulting", "href": "#services" },
+          { "text": "Audit Services", "href": "#services" }
         ]
       }
     },
@@ -466,7 +324,7 @@
       "text": "© Copyright",
       "company": "Ledger Logic",
       "rights": "All Rights Reserved",
-      "credits": "Designed by BootstrapMade"
+      "credits": "Designed by Ledger Logic"
     }
   }
 } 
